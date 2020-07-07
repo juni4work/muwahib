@@ -1,0 +1,103 @@
+@font-face {
+    font-family: 'muwahib';
+    src:  url('../font/muwahib.eot?5xy4ps');
+    src:  url('../font/muwahib.eot?5xy4ps#iefix') format('embedded-opentype'),
+      url('../font/muwahib.ttf?5xy4ps') format('truetype'),
+      url('../font/muwahib.woff?5xy4ps') format('woff'),
+      url('../font/muwahib.svg?5xy4ps#muwahib') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  [class^="mw-"], [class*=" mw-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'muwahib' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .mw-cat-voice:before {
+    content: "\e900";
+  }
+  .mw-cat-development:before {
+    content: "\e901";
+  }
+  .mw-dis-secure1:before {
+    content: "\e902";
+  }
+  .mw-dis-clock:before {
+    content: "\e903";
+  }
+  .mw-dis-mail:before {
+    content: "\e904";
+  }
+  .mw-dis-check2:before {
+    content: "\e905";
+  }
+  .mw-dis-money:before {
+    content: "\e906";
+  }
+  .mw-dis-check:before {
+    content: "\e907";
+  }
+  .mw-dis-secure2:before {
+    content: "\e908";
+  }
+  .mw-cat-social1:before {
+    content: "\e909";
+  }
+  .mw-cat-lifestyle:before {
+    content: "\e90a";
+  }
+  .mw-cat-digital:before {
+    content: "\e90b";
+  }
+  .mw-dis-note:before {
+    content: "\e90c";
+  }
+  .mw-cat-video1:before {
+    content: "\e90d";
+  }
+  .mw-dis-support:before {
+    content: "\e90e";
+  }
+  .mw-cat-social:before {
+    content: "\e90f";
+  }
+  .mw-cat-edit:before {
+    content: "\e910";
+  }
+  .mw-dis-time:before {
+    content: "\e911";
+  }
+  .mw-cat-graphic1:before {
+    content: "\e912";
+  }
+  .mw-dis-replace:before {
+    content: "\e913";
+  }
+  .mw-cat-video2:before {
+    content: "\e914";
+  }
+  .mw-dis-document:before {
+    content: "\e915";
+  }
+  .mw-cat-graphic2:before {
+    content: "\e916";
+  }
+  .mw-cat-music:before {
+    content: "\e917";
+  }
+  .mw-cat-writing1:before {
+    content: "\e918";
+  }
+  

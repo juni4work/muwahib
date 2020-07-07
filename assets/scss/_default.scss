@@ -1,0 +1,56 @@
+@import 'font';
+
+$primary-color: #6370BB;
+$secondary-color: #65E1C8;
+$third-color: #FA7875;
+$font-color1: #141F61;
+$font-dark: #333333;
+$font-light: #ffffff;
+@mixin transition($time){
+    transition:$time ease all;
+}
+.primary-gradient{
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#424d8e+0,6370bb+100 */
+background: #424d8e; /* Old browsers */
+background: -moz-linear-gradient(-45deg,  #424d8e 0%, #6370bb 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg,  #424d8e 0%,#6370bb 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg,  #424d8e 0%,#6370bb 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#424d8e', endColorstr='#6370bb',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+
+$primary-font: 'product_sans', sans-serif;
+
+/*clearfix*/
+input:focus,button:focus,textarea:focus{
+    outline:0 !important;
+}
+
+/*typography defaults*/
+
+body,p,div,span,input{
+    font-family: $primary-font;
+    font-weight:normal;
+}
+
+.primary-heading{
+    font-family: $primary-font;
+    font-weight:bold;
+    font-size: 5em;
+
+}
+.font-color1{
+    color:$font-color1;
+}
+.font-dark{
+    color:$font-dark
+}
+.font-light{
+    color:$font-light;
+}
+
+
+.vertical-center{
+    display:flex;
+    align-items: center;
+}
